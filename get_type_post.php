@@ -55,8 +55,8 @@ function g(){
             $res .= '<img src="'.$post_thumbnail.'" alt="'.$post_title.'" />';
             $res .= '<div class="post-category-gen-title">';
             $res .= '<a href="'.$post_link.'">'.$post_title.'</a>';
-            $res .= '<p>'.$post_description.'</p>';
-            $post_body .= '<p>'.$post_body.'</p>';
+            // $res .= '<p>'.$post_description.'</p>';
+            // $post_body .= '<p>'.$post_body.'</p>';
             $res .= '</div>';
             $res .= '</div>';
             $res .= '</div>';
